@@ -45,6 +45,8 @@ body::before {
 .input-container {
     position: relative;
     margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
 }
 .city-input {
     width: 100%;
@@ -75,7 +77,8 @@ body::before {
 
 }
 .weather-info {
-    
+    display: flex;
+    flex-direction: column;
 } 
 .location-date-container {
     display: flex;
@@ -164,4 +167,14 @@ body::before {
     text-align: center;
     margin-top: 20%;
     
+}
+.geolocation-icon {
+    cursor: pointer;
+    font-size: 30px;
+    color: #fff;
+    margin: 10px;
+    margin-left: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
